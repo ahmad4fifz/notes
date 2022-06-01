@@ -1,0 +1,28 @@
+{
+  "name": "notes",
+  "version": "1.0.0",
+  "description": "notes here",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmad4fifz/notes.git"
+  },
+  "keywords": [
+    "notes"
+  ],
+  "author": "Ahmad A'fif",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahmad4fifz/notes/issues"
+  },
+  "homepage": "https://github.com/ahmad4fifz/notes#readme",
+  "dependencies": {
+    "vitepress": "^0.22.4"
+  }
+}
