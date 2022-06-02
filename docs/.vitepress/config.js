@@ -40,13 +40,17 @@ module.exports = {
     nav: [{ text: "Blog", link: "https://ahmad4fifz.medium.com/" }],
     sidebar: [
       {
-        text: "Guide",
+        text: "Linux",
         children: [
-          { text: "Git", link: "/guide/git" },
-          { text: "Linux", link: "/guide/linux" },
-          { text: "Network", link: "/guide/network" },
-          { text: "Transfer", link: "/guide/transfer" },
+          { text: "File Management", link: "/linux/file-management" },
+          { text: "File Transfer", link: "/linux/file-transfer" },
+          { text: "Network Management", link: "/linux/network-management" },
+          { text: "Time Management", link: "/linux/time-management" },
         ],
+      },
+      {
+        text: "Guide",
+        children: [{ text: "Git", link: "/guide/git" }],
       },
       {
         text: "Installation",
@@ -59,7 +63,7 @@ module.exports = {
       {
         text: "Configuration",
         children: [
-          { text: "Fail2ban", link: "/configuration/fail2ban" },
+          { text: "Ubuntu", link: "/configuration/ubuntu" },
           { text: "VPN", link: "/configuration/vpn" },
         ],
       },

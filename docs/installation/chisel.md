@@ -1,14 +1,14 @@
 # Chisel
 
-## Public Server
-
-### Install chisel
+## Installation
 
 ```bash
 curl https://i.jpillora.com/chisel! | bash
 ```
 
-### Setup chisel startup
+## Configuration
+
+### Public Server
 
 ```bash
 nano /etc/systemd/system/chisel-server.service
@@ -40,21 +40,15 @@ systemctl start chisel-server # start the service
 systemctl status chisel-server # view the status & log
 ```
 
-## Internal Server
+### Internal Server
 
-### Installation
-
-```bash
-curl https://i.jpillora.com/chisel! | bash
-```
-
-### Setup chisel startup (Example for SSH)
+> Example for SSH
 
 ```bash
 nano /etc/systemd/system/chisel-tunnel-22.service
 ```
 
-Paste, edit the `public server ip/domain` and save the file:
+Paste, replace the `<public server ip/domain>` and save the file:
 
 ```
 [Unit]
