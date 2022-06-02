@@ -40,12 +40,12 @@ module.exports = {
     nav: [{ text: "Blog", link: "https://ahmad4fifz.medium.com/" }],
     sidebar: [
       {
-        text: "Guidance",
+        text: "Guide",
         children: [
-          { text: "Git", link: "/guidance/git" },
-          { text: "Linux", link: "/guidance/linux" },
-          { text: "Network", link: "/guidance/network" },
-          { text: "Transfer", link: "/guidance/transfer" },
+          { text: "Git", link: "/guide/git" },
+          { text: "Linux", link: "/guide/linux" },
+          { text: "Network", link: "/guide/network" },
+          { text: "Transfer", link: "/guide/transfer" },
         ],
       },
       {
