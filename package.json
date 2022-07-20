@@ -1,10 +1,9 @@
 {
   "name": "notes",
   "version": "1.0.0",
-  "description": "notes here",
+  "description": "My notes ...",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
     "serve": "vitepress serve docs"
@@ -14,7 +13,7 @@
     "url": "git+https://github.com/ahmad4fifz/notes.git"
   },
   "keywords": [
-    "notes"
+    "notes", "knowledge-based"
   ],
   "author": "Ahmad A'fif",
   "license": "MIT",
